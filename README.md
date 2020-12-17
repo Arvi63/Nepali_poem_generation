@@ -17,7 +17,7 @@ The data is divided into two parts X(text encoding) and Y(target).
 
 X  = (BATCH_SIZE, SEQ_LENGTH) of dimension (16,64).Here SEQ_LENGTH is the time_step for LSTM
 
-Y = (BATCH_SIZE, SEQ_LENGTH, vocab_size) of dimension(16,64,86)
+Y = (BATCH_SIZE, SEQ_LENGTH, vocab_size) of dimension(16,64,73)
     . Here vocab size is the total number of unique alphabets in the dataset. vocab_size is the one_hot of 73 dims vector which our model has to predict.
 
 ![Data preparation pic](/img/data_prep.png)
