@@ -1,6 +1,5 @@
 # Nepali poem generation using char RNN in Keras
 
-## Note: This code is mostly used from https://github.com/ekzhang/char-rnn-keras with minor changes to make implementation easier.
 
 This project generates the nepali poem using the char RNN. Although any sequence like music,other language text can be generated with this architecture. 
 
@@ -64,3 +63,5 @@ Here 500 is for model epoch number which have been trained and placed inside mod
 ## Conclusion
 The output of this model not remarkable but it is surely good starting for begineers. This project is not only limited to poem generation, we can even generate various text and even music from this architecture.
 
+# Reference
+https://github.com/ekzhang/char-rnn-keras 
